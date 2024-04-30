@@ -1,9 +1,6 @@
 name: release
 
-on:
-  push:
-    tags:
-      - 'v*.*.*'
+on: workflow_dispatch
 
 env:
   CARGO_INCREMENTAL: 0
